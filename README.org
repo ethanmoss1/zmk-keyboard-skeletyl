@@ -10,21 +10,18 @@ Example:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejoganson
-      url-base: https://github.com/petejohanson
-    - name: grassfedreeve
-      url-base: https://github.com/grassfedreeve
+    - name: ethanmoss1
+      url-base: https://github.com/ethanmoss1
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: ec-support-zmk-module
-      remote: petejohanson
-      revision: main
-    - name: zmk-keyboards-katori
-      remote: grassfedreeve
-      revision: main
+    - name: zmk-keyboards-skeletyl
+      remote: ethanmoss1
+      revision: master
   self:
     path: config
 #+end_src
+
+Thanks to https://github.com/grassfedreeve, his Katori repo helped build mine.
